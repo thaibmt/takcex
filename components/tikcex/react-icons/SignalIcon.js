@@ -1,0 +1,50 @@
+import React from "react";
+
+
+SignalIcon.propTypes = {};
+
+function SignalIcon(props) {
+  return (
+    <svg
+      width="100"
+      height="100"
+      viewBox="0 0 100 100"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g id="signal-02">
+        <path
+          id="Icon"
+          opacity="0.2"
+          d="M67.6778 23.989C77.4409 33.7521 77.4409 49.5812 67.6778 59.3443M32.3223 59.3443C22.5592 49.5812 22.5592 33.7521 32.3223 23.989M20.5363 71.1297C4.26443 54.8578 4.26443 28.4759 20.5363 12.2041M79.4637 12.2041C95.7355 28.4759 95.7355 54.8578 79.4637 71.1297M50 50.0001C54.6024 50.0001 58.3333 46.2692 58.3333 41.6668C58.3333 37.0644 54.6024 33.3335 50 33.3335C45.3976 33.3335 41.6667 37.0644 41.6667 41.6668C41.6667 46.2692 45.3976 50.0001 50 50.0001ZM50 50.0001V87.5001"
+          stroke="white"
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <circle
+          id="Ellipse 1821"
+          cx="50"
+          cy="42"
+          r="12"
+          fill="url(#paint0_linear_44_443)"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_44_443"
+          x1="38"
+          y1="30"
+          x2="62.3254"
+          y2="31.3737"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#A8FF78" />
+          <stop offset="1" stopColor="#F9898E" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
+
+export default SignalIcon;
